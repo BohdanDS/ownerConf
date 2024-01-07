@@ -103,7 +103,7 @@ public class RegistrationPage {
     }
 
     public void checkGenderFieldValidation(String value){
-        genderField.$(byText(value)).shouldHave(cssValue("color", "rgba(220, 53, 69, 1)"));
+        genderField.$(byText(value)).shouldHave(cssValue("color", "rgb(220, 53, 69)"));
     }
     public void clickSubmitButton(){
         submit.click();
